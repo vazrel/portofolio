@@ -218,8 +218,7 @@ const activeProjectCategory = ref<string | null>(null)
 
 // Data Project (shortDescription sudah dihapus)
 const projects = ref([
-  { title: 'Configuration HMI', description: 'Mengonfigurasi HMI dan menyelaraskan komunikasi data antara kontroler (PLC) dan interface pengguna menggunakan NB-Designer.', tags: ['Arduino', 'C++', 'Php'], image: '/projects/hmi.jpeg', github: 'https://github.com/vazrel', },
-  { title: 'Maintenance conveyor dan sensor pada MPS', description: 'Mengatur ulang posisi conveyor dan jarak baca sensor pada Modular Production System.', tags: ['Arduino', 'C++', 'Php'], image: '/projects/2.jpeg', github: 'https://github.com/vazrel',  },
+  { title: 'Configuration HMI', description: 'Mengonfigurasi HMI dan menyelaraskan komunikasi data antara kontroler (PLC) dan interface pengguna menggunakan NB-Designer.', tags: ['MPS', 'HMI', 'OMRON'], image: '/projects/hmi.jpeg', github: 'https://github.com/vazrel', },
   { title: 'Garbage Filtering System Website', description: 'Merancang dan mengembangkan sistem IoT yang dapat diakses melalui website menggunakan database yang telah terintegrasi dengan sensor dan arduino.', tags: ['Arduino', 'C++', 'Php', 'IoT'], image: '/projects/iot.png', github: 'https://github.com/vazrel', },
   { title: 'Frent Agriculture Website', description: 'Merancang dan mengembangkan website rental dan jual beli produk pertanian berbasis Internet of Things.', tags: ['Arduino', 'C++', 'Php'], image: '/projects/frent.png', github: 'https://github.com/vazrel', },
 ])
